@@ -1,0 +1,56 @@
+div#maintodolist{
+    width: 700px;
+    margin:20px auto 0;
+}
+
+div#createtodo{
+    width: 600px;
+    margin:0px auto 0;
+}
+div#todolist{
+    margin:0px;
+    width: 700px;
+    padding:10px 0px;
+}
+div.todo{
+    width: 600px;
+    margin:10px auto 0;
+    font-size:20px;
+    padding:5px;
+    border-style:solid;
+    border-color:lightgray;
+    border-radius:5px;
+}
+
+input{
+    width:75%;
+    height: 30px;
+    background:lightgray;
+    border:0;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    width: 19%;
+    height: 40px;
+    margin: 5px;
+    background: lightgray;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p.textTodo{
+    margin:0px;
+    text-align: center
+}
+button:hover{
+    background: gray;
+}
+
+button.bTodo{
+    width:48%;
+}
+button.deleteAll{
+    width:100%;
+}
